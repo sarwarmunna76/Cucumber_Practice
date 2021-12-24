@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.926">
+    <testcase classname="Your Logo Application test cases" name="Test case1: Add new address" time="12.784">
+        <system-out><![CDATA[Given Opening the browser...................................................passed
+And Enter email.............................................................passed
+Given Enter password........................................................passed
+When Click login............................................................passed
+When Click My addresses.....................................................passed
+And Click Update............................................................passed
+And Update State and City...................................................passed
+Then Click Save.............................................................passed
+Then Validate Update........................................................passed
+Then Click SignOut..........................................................passed
+Then Quite Browser..........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
