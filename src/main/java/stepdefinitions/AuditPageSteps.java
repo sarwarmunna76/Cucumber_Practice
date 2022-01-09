@@ -14,9 +14,10 @@ public class AuditPageSteps extends GenericWrappers{
 	    auditpage.clickCity();
 	    auditpage.findState();
 	}
+	
 	@Then("Click Save")
 	public void click_Save() {
-	    auditpage.clickByXpath("//button[@id='submitAddress']");
+	    auditpage.ClickSave();
 	}
 
 

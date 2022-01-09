@@ -10,6 +10,7 @@ import wrappers.GenericWrappers;
 public class LoginSteps extends GenericWrappers{
 
 	LoginPage loginPage = new LoginPage();
+	
 	@And("Enter email")
 	public void enter_email() {
 		loginPage.enterEmail();

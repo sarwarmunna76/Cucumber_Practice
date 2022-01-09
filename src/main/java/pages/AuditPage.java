@@ -1,10 +1,10 @@
 package pages;
 
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
+
 import org.openqa.selenium.support.ui.Select;
 
-import com.relevantcodes.extentreports.ExtentTest;
+
 
 import wrappers.GenericWrappers;
 
@@ -13,11 +13,11 @@ public class AuditPage extends  GenericWrappers{
 	
 	
 		public AuditPage clickCity() {
-			
 			getElementByXpath("//input[@name='city']").sendKeys("Texas");
 			return this;
 			
 			}
+		
 		public AuditPage findState () {
 			
 			WebElement PD = getElementByXpath("//select[@id='id_state']");
@@ -28,10 +28,10 @@ public class AuditPage extends  GenericWrappers{
 			
 		}
 		
-		public MyaddressPage findCity() {
+		public AddressPage ClickSave() {
 			
 			getElementByXpath("//button[@id='submitAddress']").click();
-			return new MyaddressPage();
+			return new AddressPage();
 			
 			
 			

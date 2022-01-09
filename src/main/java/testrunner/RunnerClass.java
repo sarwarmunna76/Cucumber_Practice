@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:\\Users\\Sarwar\\eclipse-workspace\\Cucumber_Practice\\src\\main\\java\\feature\\TestCase1.feature",
+@CucumberOptions(features = {"C:\\Users\\Sarwar\\eclipse-workspace\\Cucumber_Practice\\src\\main\\java\\feature\\TestCase1.feature","C:\\Users\\Sarwar\\eclipse-workspace\\Cucumber_Practice\\src\\main\\java\\feature\\TestCase2.feature"},
 glue="stepdefinitions",
 monochrome=true,
 dryRun = false,

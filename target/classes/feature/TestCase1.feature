@@ -1,7 +1,7 @@
 
 Feature: Your Logo Application test cases
 
-  Scenario Outline: Test case1: Add new address
+  Scenario: Test case1: Add new address
   	Given Opening the browser
     And Enter email
     Given Enter password
@@ -14,7 +14,6 @@ Feature: Your Logo Application test cases
     Then Click SignOut
     Then Quite Browser
 
-Examples:
-  | | |
-  |  | |
+
+  
  

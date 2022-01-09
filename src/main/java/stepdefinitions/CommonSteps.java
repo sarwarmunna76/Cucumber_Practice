@@ -5,7 +5,6 @@ import wrappers.GenericWrappers;
 
 public class CommonSteps extends GenericWrappers{
 	
-
 	
 	@Given("Opening the browser")
 	public void opening_the_browser() {

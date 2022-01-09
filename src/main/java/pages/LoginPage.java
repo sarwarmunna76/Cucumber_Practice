@@ -1,6 +1,5 @@
 package pages;
 
-	
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,7 +21,6 @@ import wrappers.GenericWrappers;
 		WebElement password;
 		
 		
-		
 		public LoginPage enterEmail() {
 			email.sendKeys(prop.getProperty("EM"));
 			return this;
@@ -33,9 +31,9 @@ import wrappers.GenericWrappers;
 			return this;
 		}
 		
-		public MyaddressPage clickLogin() {
+		public AddressPage clickLogin() {
 			clickById("SubmitLogin");
-			return new MyaddressPage();
+			return new AddressPage();
 		}
 
 		
